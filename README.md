@@ -1,1 +1,1 @@
-# angular-lab
+1. Install VS Code
