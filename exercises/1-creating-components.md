@@ -14,7 +14,7 @@ To create a component using CLI:
 ng generate component warning
 ```
 
-Or for the lazy ones out there :see_no_evil: :
+Or for the lazy ones out there :
 
 ``` console
 ng g c warning

@@ -2,7 +2,7 @@
 
 > :rocket: VS Code is already installed in your lab environment.
 
-## :one: Install npm/node
+## Install npm/node
 
 1. Download and install using the link : [Node.js](https://nodejs.org/dist/v16.13.0/node-v16.13.0-x64.msi)
 2. No setup configuration is required here so feel free to click **Next** until it is successfully installed
@@ -16,7 +16,7 @@ node -v
 npm -v
 ```
 
-## :two: Install Angular
+## Install Angular
 
 1. Open a terminal window and run:
 
@@ -30,7 +30,7 @@ npm install -g @angular/cli
 ng v
 ```
 
-## :three: Create a new Angular workspace
+## Create a new Angular workspace
 
 1. Open a terminal window and run the CLI command:
 
