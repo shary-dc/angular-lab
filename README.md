@@ -1,6 +1,6 @@
 # Setup your Angular environment
 
-> :rocket: VS Code is already installed in your lab environment.
+> VS Code and Google Chrome is already installed in your lab environment.
 
 ## Install npm/node
 
