@@ -3,4 +3,10 @@ classes:
   - exercises:
       # `file` is relative to .strigo directory
       - file: "../README.md"
-        title: "Installation"
+        title: "#0 - Installation"
+      - file: "../exercises/1-creating-components.md"
+        title: "#1 - Creating components"
+      - file: "../exercises/2-databinding.md"
+        title: "#2 - Practicing data-binding"
+      - file: "../exercises/3-directives.md"
+        title: "#3 - Practicing directives"
