@@ -1,4 +1,4 @@
-# Lab #2 : Practicing directives
+# Lab #3 : Practicing directives
 
 1. Create a new component called **DirectivesComponent**
 2. Add a button which says "Show Details"
