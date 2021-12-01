@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Recipe } from './../recipe.model';
+import { Component, EventEmitter, OnInit, Output } from '@angular/core';
 
 @Component({
   selector: 'app-new-recipe',
@@ -9,6 +10,7 @@ export class NewRecipeComponent implements OnInit {
   allowNewRecipe = false;
   recipeCreationStatus = 'No recipe was created!';
   recipeName = 'Test Recipe';
+  @Output() createRecipe = new EventEmitter<Recipe>();
   constructor() {
     setTimeout(() => {
       this.allowNewRecipe = true;
@@ -16,8 +18,14 @@ export class NewRecipeComponent implements OnInit {
   }
 
   ngOnInit(): void {}
+
   onCreateRecipe() {
     this.recipeCreationStatus = `Recipe created: ${this.recipeName}`;
+    this.createRecipe.emit({
+      id: Math.ceil(Math.random() * 100),
+      name: this.recipeName,
+      type: 'Superb',
+    });
   }
 
   onUpdaterecipeName(event: Event) {
