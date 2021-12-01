@@ -1,0 +1,35 @@
+<!-- <div class="container">
+  <app-new-recipe (createRecipe)="onCreateRecipe($event)"></app-new-recipe>
+  <app-recipes [recipes]="recipes"></app-recipes>
+</div>
+ -->
+ <nav class="navbar" role="navigation" aria-label="main navigation">
+  <div class="navbar-brand">
+   
+
+    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+    </a>
+  </div>
+
+  <div id="navbarBasicExample" class="navbar-menu">
+    <div class="navbar-start">
+      <a [routerLinkActiveOptions]="{exact: true}" class="navbar-item" routerLink="/" routerLinkActive="activeLink" >
+        Recipes
+      </a>
+
+      <a class="navbar-item" routerLink="ingredients" routerLinkActive="activeLink">
+        Ingredients
+      </a>
+      <a class="navbar-item"  routerLink="users" routerLinkActive="activeLink">
+        Users
+      </a>
+      
+    </div>
+  </div>
+</nav>
+<div class="container">
+  <router-outlet></router-outlet>
+</div>
