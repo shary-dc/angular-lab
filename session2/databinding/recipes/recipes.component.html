@@ -1,0 +1,18 @@
+<label>recipe Name</label>
+<!--<input-->
+  <!--type="text"-->
+  <!--class="form-control"-->
+  <!--(input)="onUpdaterecipeName($event)">-->
+<input
+  type="text"
+  class="form-control"
+  [(ngModel)]="recipeName">
+<!--<p>{{ recipeName }}</p>-->
+<button
+  class="btn btn-primary"
+  [disabled]="!allowNewRecipe"
+  (click)="onCreateRecipe()">Add recipe</button>
+<!--<p [innerText]="allowNewrecipe"></p>-->
+<p>{{ recipeCreationStatus }}</p>
+<app-recipe></app-recipe>
+<app-recipe></app-recipe>
