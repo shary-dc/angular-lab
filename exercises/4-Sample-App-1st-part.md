@@ -12,4 +12,4 @@
   * Display the  details of the selected hero below the list of heroes
   * When there is no hero selected, the hero details should not be visible
 
-(Sample Application)[https://s7cqrx--run--4200.local.webcontainer.io/]
+(Sample Application) [https://s7cqrx--run--4200.local.webcontainer.io/]
