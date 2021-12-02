@@ -10,3 +10,7 @@ classes:
         title: "Practicing data-binding"
       - file: "../exercises/3-directives.md"
         title: "Practicing directives"
+      - file: "../exercises/4-Sample-App-1st-part.md"
+        title: "Course Project Part 1"
+      - file: "../exercises/5-Sample-App-part2.md"
+        title: "Course Project Part 2"
