@@ -47,3 +47,7 @@ ng new playground
 ```console
 ng serve --open
 ```
+
+## Demo Applications
+1. [Databinding](https://github.com/shary-dc/angular-lab/tree/main/session2/databinding)
+2. [Components](https://github.com/shary-dc/angular-lab/tree/main/session3/component-finished)
