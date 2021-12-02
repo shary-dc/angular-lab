@@ -10,6 +10,8 @@
 
 ## Navigation
 
-1. Add a Dashboard view.
-2. Add the ability to navigate between the Heroes and Dashboard views.
-3. When users click a hero name in either view, navigate to a detail view of the selected hero.
+1. Add a Dashboard view:
+ * Make it the default landing page
+ * It should only display the first 4 heroes
+3. Add the ability to navigate between the Heroes and Dashboard views.
+4. When users click a hero name in either view, navigate to a detail view of the selected hero.
