@@ -15,3 +15,5 @@
  * It should only display the first 4 heroes
 3. Add the ability to navigate between the Heroes and Dashboard views.
 4. When users click a hero name in either view, navigate to a detail view of the selected hero.
+
+[Sample Application](https://89ynnb--run--4200.local.webcontainer.io/dashboard)
