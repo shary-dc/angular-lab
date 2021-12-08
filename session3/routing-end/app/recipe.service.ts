@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import { Recipe } from './recipe.model';
-
+import {} from 'rxjs/operators';
 @Injectable()
 export class RecipeService {
   private recipes: Recipe[] = [
@@ -26,5 +26,9 @@ export class RecipeService {
 
   get(id: number) {
     return this.getRecipes().find((y) => y.id == id);
+  }
+
+  getRecipesObservable() {
+    //return of();
   }
 }
