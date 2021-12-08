@@ -2,34 +2,6 @@
 
 > VS Code and Google Chrome is already installed in your lab environment.
 
-## Install npm/node
-
-1. Download and install using the link : [Node.js](https://nodejs.org/dist/v16.13.0/node-v16.13.0-x64.msi)
-2. No setup configuration is required here so feel free to click **Next** until it is successfully installed
-3. Confirm the installation by opening a terminal window and running the below commands. If everything is okay, this will output the version of Node and npm installed on your machine.
-
-```console
-node -v
-```
-
-```console
-npm -v
-```
-
-## Install Angular
-
-1. Open a terminal window and run:
-
-```console
-npm install -g @angular/cli
-```
-
-2. Confirm the installation by opening a terminal window and running the below command. If everything is okay, this will output the version of Angular installed on your machine.
-
-```console
-ng v
-```
-
 ## Create a new Angular workspace
 
 1. Open a terminal window and run the CLI command:
@@ -47,3 +19,7 @@ ng new playground
 ```console
 ng serve --open
 ```
+
+## Demo Applications
+1. [Databinding](https://github.com/shary-dc/angular-lab/tree/main/session2/databinding)
+2. [Components](https://github.com/shary-dc/angular-lab/tree/main/session3/component-finished)
